@@ -1,1 +1,1 @@
-Tewstify test collection for web projects
+Testify test collection for web projects
