@@ -1,10 +1,10 @@
-<?php 
-namespace Tests\seo;
+<?php
+namespace Tests\Seo;
 
 use Tests\AcceptanceTester;
 use Tests\Helper\Config;
 
-class linksCest
+class LinksCest
 {
     public function _before(AcceptanceTester $I)
     {
@@ -12,7 +12,6 @@ class linksCest
         $I->waitForElement('a');
     }
 
-    // tests
     public function externalLinksTargetBlank(AcceptanceTester $I, Config $helperConfig)
     {
         $specialLinks = [
