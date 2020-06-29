@@ -23,7 +23,7 @@ class SearchCest
         $I->assertNotEmpty($spans, 'Autocomplete has items');
 
         foreach ($spans as $key => $span) {
-            $I->assertStringContainsString($searchWord, strtolower($span), 'Key: ' . $key);
+            $I->assertStringContainsString($searchWord, strtolower($span . 'testify'), 'Key: ' . $key);
         }
     }
 }
