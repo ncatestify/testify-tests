@@ -3,6 +3,7 @@ modules:
   enabled:
     - WebDriver
     - Asserts
+    - REST
   config:
       WebDriver:
           browser: chrome
