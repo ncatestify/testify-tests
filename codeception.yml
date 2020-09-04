@@ -18,5 +18,15 @@ modules:
     WebDriver:
       url: "%WEBSITE_URL%"
       host: "%WEBDRIVER_URL%"
+    PhpBrowser:
+      url: '%WEBSITE_URL%'
+      clear_cookies: false
+      restart: false
+      curl:
+        CURLOPT_RETURNTRANSFER: true
+    REST:
+      url: '%WEBSITE_URL%'
+      depends: PhpBrowser
+      part: Json  
 params:
   - env
