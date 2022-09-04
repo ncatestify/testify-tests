@@ -2,12 +2,12 @@
     "name": "nevercodealone/testify-tests",
     "description": "Codeception tests for web projects",
     "require-dev": {
-        "codeception/codeception": "^4.1",
-        "codeception/module-asserts": "^1.0.0",
+        "codeception/codeception": "^5.0",
+        "codeception/module-asserts": "*",
         "vlucas/phpdotenv": "^4.1",
-        "codeception/module-webdriver": "^1.0",
-        "codeception/module-phpbrowser": "^1.0",
-        "codeception/module-rest": "^1.0"
+        "codeception/module-webdriver": "*",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-rest": "*"
     },
     "authors": [
         {
